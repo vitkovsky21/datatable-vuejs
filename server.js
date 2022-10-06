@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 var corsOptions = {
-  origin: "https://docker-datatbl.herokuapp.com/"
+  origin: "https://docker-datatbl.herokuapp.com/api/datatables"
 };
 
 app.use(cors(corsOptions));
