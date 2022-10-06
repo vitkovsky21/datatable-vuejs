@@ -16,6 +16,12 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 npm install
 ```
 
+### Server
+
+```sh
+node server.js
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
@@ -28,8 +34,3 @@ npm run dev
 npm run build
 ```
 
-### Server
-
-```sh
-node server.js
-```
