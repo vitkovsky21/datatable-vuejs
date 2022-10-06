@@ -27,3 +27,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Server
+
+```sh
+node server.js
+```
