@@ -1,7 +1,15 @@
 const express = require("express");
+const cors = require("cors");
 const path = require('path');
 
 const app = express();
+
+var corsOptions = {
+  origin: "http://localhost:8081"
+};
+
+app.use(allowCrossDomain)
+app.use(cors(corsOptions));
 
 app.use(express.json());
 
